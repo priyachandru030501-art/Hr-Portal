@@ -1,0 +1,31 @@
+.payroll-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.payroll-search {
+  max-width: 280px;
+}
+
+.payroll-pay-btn {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.payroll-pay-btn:hover {
+  background: #bfdbfe;
+}
+
+@media (max-width: 600px) {
+  .payroll-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .payroll-search {
+    max-width: 100%;
+  }
+}

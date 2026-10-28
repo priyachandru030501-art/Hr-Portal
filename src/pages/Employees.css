@@ -1,0 +1,27 @@
+.employee-heading,
+.employee-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.employee-search {
+  max-width: 280px;
+}
+
+.employee-heading .btn {
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .employee-heading,
+  .employee-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .employee-search {
+    max-width: 100%;
+  }
+}

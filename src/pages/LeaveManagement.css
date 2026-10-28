@@ -1,0 +1,22 @@
+.leave-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.leave-filter {
+  max-width: 190px;
+}
+
+@media (max-width: 600px) {
+  .leave-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .leave-filter {
+    max-width: 100%;
+  }
+}

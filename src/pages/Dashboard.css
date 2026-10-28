@@ -1,0 +1,12 @@
+.dashboard-page {
+  width: 100%;
+}
+
+.dashboard-page .stat-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dashboard-page .stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(15, 23, 42, 0.08);
+}
